@@ -21,7 +21,7 @@
 
     <data>
         <variable
-            name="longClickListner"
+            name="longClickListener"
             type="com.example.waterme.adapater.PlantListener" />
 
         <variable
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:onLongClick="@{() -> longClickListner.onLongClick(plant)}"
+        android:onLongClick="@{() -> longClickListener.onLongClick(plant)}"
         app:cardElevation="4dp"
         app:cardCornerRadius="4dp" >
 
